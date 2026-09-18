@@ -17,7 +17,7 @@ export default function SearchBox() {
   const [result, setResult] = useState<ChatResponse | null>(null);
 
   async function handleSubmit() {
-    const response = await fetch("http://52.207.251.20:8000/api/chat", {
+    const response = await fetch("http://13.222.168.144:8000/api/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
